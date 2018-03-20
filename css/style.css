@@ -64,3 +64,46 @@
     right: 0;
     margin: auto;
 }
+/*section image-row*/
+.image-row .gallery {
+  height: 500px;
+  width: 25%;
+ /* margin: 0;
+  padding: 0;
+  display: inline-block;*/
+}
+.image-row .img-1 {
+  background-image: url(../img/dolor.jpg);
+  float: left;
+}
+.image-row .img-2 {
+  background-image: url(../img/ligula.jpg);
+  float: left;
+}
+.image-row .img-3 {
+  background-image: url(../img/consectetur.jpg);
+  float: left;
+}
+.image-row .img-4 {
+  background-image: url(../img/ullamcorper.jpg);
+  float: left;
+}
+.image-row h4 {
+font-family: Montserrat;
+color:  #ffffff;
+font-size: 18px;
+font-weight: 600;
+line-height: 30px;
+text-align: center;
+margin: 321px 0 18px 0; 
+}
+.image-row p {
+font-family: Georgia;
+color:  #ffffff;
+font-size: 18px;
+font-style: italic;
+line-height: 30px;
+text-align: center;
+margin-top: 0;
+}
+
