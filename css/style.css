@@ -1,0 +1,8 @@
+/*section hero*/
+.hero {
+  background: url("../img/hero-background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 1200px;
+
+}
