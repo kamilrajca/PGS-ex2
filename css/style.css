@@ -42,6 +42,15 @@ header {
   text-transform: uppercase;
   text-decoration: none;
 }
+.navigation:after {
+  content: '';
+  position: absolute;
+  top: 194px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: #fec7bc;
+}
 .caption {
   text-align: center;
 }
