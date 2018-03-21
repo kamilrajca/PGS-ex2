@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display');
+.wrapper {
+  width: 1920px;
+}
+* {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+/*section hero*/
+.hero {
+  background: url("../img/hero-background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 1200px;
+}
+header {
+  width: 1720px;
+  margin: 0 auto;
+  padding-top: 90px;
+}
+.navigation .logo {
+  float: left;
+}
+.navigation ul {
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+}
+.navigation ul li {
+  padding: 0 24px;
+  display: inline-block;
+}
+.navigation .menu-btn {
+  float: right;
+  margin-top: -14px;
+}
+.search-icon {
+  margin: 5px 34px 0 0;
+}
+.navigation .nav-link {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.caption {
+  text-align: center;
+}
+.caption h1 {
+  font-family: 'Playfair Display', serif;
+  color:  #fff;
+  font-size: 140px;
+  font-weight: 400;
+  margin: 225px 0 0 0;
+}
+.caption p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 34px;
+  text-align: center;
+}
+.btn-group {
+  margin-top: 76px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  width: 163px;
+  padding: 0 30px;
+  height: 46px;
+  border-radius: 50px;
+  border: none;
+  background-color: #da7074;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 46px;
+  position: relative;
+}
+.btn:after {
+  content: '';
+  position: absolute;
+  top: 100px;
+  left: 45%;
+  width: 1px;
+  height: 190px;
+  background: #da7074;
+  box-shadow: 10px 20px 0 #da7074;
+} 
+.line {
+  content: '';
+  height: 1px;
+  background: #da7074;
+  width: 140px;
+}
+.play-icon {
+  margin-top: 310px;
+}
+/*section image-row*/
+.image-row .gallery {
+  height: 500px;
+  width: 25%;
+}
+.image-row .img-1 {
+  background-image: url(../img/dolor.jpg);
+  float: left;
+}
+.image-row .img-2 {
+  background-image: url(../img/ligula.jpg);
+  float: left;
+}
+.image-row .img-3 {
+  background-image: url(../img/consectetur.jpg);
+  float: left;
+}
+.image-row .img-4 {
+  background-image: url(../img/ullamcorper.jpg);
+  float: left;
+}
+.image-row h4 {
+font-size: 18px;
+font-weight: 600;
+line-height: 30px;
+text-align: center;
+margin: 321px 0 18px 0; 
+}
+.image-row p {
+font-family: Georgia, serif;
+font-size: 18px;
+font-style: italic;
+line-height: 30px;
+text-align: center;
+margin-top: 0;
+}
+/*footer*/
+.cols {
+  height: 404px; 
+  width: 1522px;
+  margin: 0 auto;
+}
+.coll {
+  float: left;
+  width: 25%;
+}
+.coll h4 {
+  color:  #141515;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+}
+.coll ul {
+  padding-left: 0; 
+}
+.coll ul li {
+  list-style-type: none;
+  text-align: left;
+}
+.coll p,
+.coll ul li  {
+  font-family: Georgia, serif;
+  color:  #565656;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 26px;
+  text-align: left;
+}
+.copyright {
+  background-color: #000;
+  height: 96px;
+  clear: both;
+}
+.copyright p {
+  font-family: Georgia, serif;
+  color:  #ffffff;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 96px;
+  text-align: center;
+}
