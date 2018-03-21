@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display');
+.wrapper {
+  width: 1920px;
+}
+* {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
 /*section hero*/
 .hero {
   background: url("../img/hero-background.jpg");
@@ -5,22 +13,32 @@
   background-position: center;
   height: 1200px;
 }
-.navigation {
-  display: inline-block;
+header {
+  width: 1720px;
+  margin: 0 auto;
+  padding-top: 90px;
+}
+.navigation .logo {
+  float: left;
 }
 .navigation ul {
+  font-size: 14px;
+  font-weight: 700;
   text-align: center;
-}
-.navigation .menu-btn {
-  /*text-align: right;*/
-  float: right;
-  /*width: 10%;*/
+  margin: 0;
 }
 .navigation ul li {
+  padding: 0 24px;
   display: inline-block;
 }
+.navigation .menu-btn {
+  float: right;
+  margin-top: -14px;
+}
+.search-icon {
+  margin: 5px 34px 0 0;
+}
 .navigation .nav-link {
-  color: #fff;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -28,49 +46,60 @@
   text-align: center;
 }
 .caption h1 {
-  font-family: PlayfairDisplay;
+  font-family: 'Playfair Display', serif;
   color:  #fff;
   font-size: 140px;
   font-weight: 400;
-  margin-bottom: 0;
+  margin: 225px 0 0 0;
 }
 .caption p {
-  font-family: Montserrat;
-  color:  #fff;
   font-size: 20px;
   font-weight: 300;
   line-height: 34px;
   text-align: center;
 }
+.btn-group {
+  margin-top: 76px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .btn {
   width: 163px;
+  padding: 0 30px;
   height: 46px;
   border-radius: 50px;
   border: none;
   background-color: #da7074;
-  color: #fff;
   text-transform: uppercase;
-  font-family: Montserrat;
   font-size: 14px;
   font-weight: 700;
+  line-height: 46px;
+  position: relative;
 }
-.caption::after {
-    content: "\00a0";
-    display: block;
-    border: none;
-    border-bottom: 3px solid #da7074;
-    width: 80px;
-    left: 0;
-    right: 0;
-    margin: auto;
+.btn:after {
+  content: '';
+  position: absolute;
+  top: 100px;
+  left: 45%;
+  width: 1px;
+  height: 190px;
+  background: #da7074;
+  box-shadow: 10px 20px 0 #da7074;
+} 
+.line {
+  content: '';
+  height: 1px;
+  background: #da7074;
+  width: 140px;
+}
+.play-icon {
+  margin-top: 310px;
 }
 /*section image-row*/
 .image-row .gallery {
   height: 500px;
   width: 25%;
- /* margin: 0;
-  padding: 0;
-  display: inline-block;*/
 }
 .image-row .img-1 {
   background-image: url(../img/dolor.jpg);
@@ -89,8 +118,6 @@
   float: left;
 }
 .image-row h4 {
-font-family: Montserrat;
-color:  #ffffff;
 font-size: 18px;
 font-weight: 600;
 line-height: 30px;
@@ -98,12 +125,56 @@ text-align: center;
 margin: 321px 0 18px 0; 
 }
 .image-row p {
-font-family: Georgia;
-color:  #ffffff;
+font-family: Georgia, serif;
 font-size: 18px;
 font-style: italic;
 line-height: 30px;
 text-align: center;
 margin-top: 0;
 }
-
+/*footer*/
+.cols {
+  height: 404px; 
+  width: 1522px;
+  margin: 0 auto;
+}
+.coll {
+  float: left;
+  width: 25%;
+}
+.coll h4 {
+  color:  #141515;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+}
+.coll ul {
+  padding-left: 0; 
+}
+.coll ul li {
+  list-style-type: none;
+  text-align: left;
+}
+.coll p,
+.coll ul li  {
+  font-family: Georgia, serif;
+  color:  #565656;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 26px;
+  text-align: left;
+}
+.copyright {
+  background-color: #000;
+  height: 96px;
+  clear: both;
+}
+.copyright p {
+  font-family: Georgia, serif;
+  color:  #ffffff;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 96px;
+  text-align: center;
+}
