@@ -27,12 +27,20 @@ header {
   text-align: center;
   margin: 0;
 }
+.navigation {
+  display: flex;
+}
+.nav-item:nth-child(2) {
+  margin-left: auto;
+}
+.nav-item:nth-child(3) {
+  margin-left: auto;
+}
 .navigation ul li {
   padding: 0 24px;
   display: inline-block;
 }
 .navigation .menu-btn {
-  float: right;
   margin-top: -14px;
 }
 .search-icon {
@@ -186,4 +194,27 @@ margin-top: 0;
   font-style: italic;
   line-height: 96px;
   text-align: center;
+}
+/*media max wodth 1280px*/
+@media (max-width: 1280px) {
+.wrapper {
+  width: 1200px;
+}
+/*media max wodth 768px*/
+@media (max-width: 768px) {
+  .wrapper {
+    width: 760px;
+  }
+}
+/*media max wodth 425px*/
+@media (max-width: 425px) {
+  .wrapper {
+    width: 420px;
+  }
+}
+/*media max wodth 320px*/
+@media (max-width: 320px) {
+  .wrapper {
+    width: 320px;
+  }
 }
