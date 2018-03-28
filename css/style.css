@@ -28,7 +28,7 @@ header {
   display: flex;
 }
 .nav-item:nth-child(1) {
-  margin-right: auto;
+  margin-left: auto;
 }
 .nav-item:nth-child(2) {
   margin-left: auto;
@@ -40,11 +40,16 @@ header {
   padding: 0 24px;
   display: inline-block;
 }
-.navigation .menu-btn {
-  margin-top: -14px;
+.btn-hamburger {
+  background: none;
+  border: none;
 }
-.search-icon {
-  margin: 5px 34px 0 0;
+.btn-search {
+  background: none;
+  border: none;
+  width: 25px;
+  /*margin: 5px 34px 0 0; */
+  margin-right: 34px;
 }
 .navigation .nav-link {
   text-transform: uppercase;
@@ -195,10 +200,10 @@ margin-top: 0;
   line-height: 96px;
   text-align: center;
 }
-/*media max wodth 1280px*/
-@media (max-width: 1280px) {
+/*media max wodth 1850px*/
+@media (max-width: 1850px) {
   .wrapper {
-    width: 1200px;
+    width: 100%;
   }
   header {
     width: 100%;
@@ -206,17 +211,27 @@ margin-top: 0;
   .navigation {
     width: 90%;
   }
-  /*.nav-item:nth-child(1) {
-    margin-left: 10%;
-  }*/
-  .cols { 
-    width: 100%;
+  .cols {
+    width: 90%;
   }
+}
+/*media max wodth 1200px*/
+@media (max-width: 1200px) {
+  .coll {
+    width: 20%;
+  }
+  .our-mission {
+    width: 40%;
+  }
+}
+/*media max width 962*/
+@media (max-width: 962px) {
+ .image-row .gallery {
+    width: 50%;
+  }
+}
 /*media max wodth 768px*/
 @media (max-width: 768px) {
-  .wrapper {
-    width: 760px;
-  }
   .caption h1 {
     font-size: 100px;
   }
@@ -240,11 +255,29 @@ margin-top: 0;
     text-align: center;
   }
 }
+/*media max wodth 630px*/
+@media (max-width: 630px) {
+  .navigation {
+    /*display: block;*/
+  }
+  .nav-item:nth-child(1) {
+    
+  }
+  .navigation {
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+  }
+  /*.nav-item {
+    justify-content: center;
+    margin: 0;
+  }*/
+  .coll {
+    width: 100%;
+    margin: 20px 0;
+  }
+}
 /*media max wodth 425px*/
 @media (max-width: 425px) {
-  .wrapper {
-    width: 420px;
-  }
   .caption h1 {
     font-size: 60px;
   }
@@ -260,7 +293,6 @@ margin-top: 0;
 }
 /*media max wodth 320px*/
 @media (max-width: 320px) {
-  .wrapper {
-    width: 320px;
-  }
+
 }
+
